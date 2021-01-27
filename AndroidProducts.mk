@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_hotdog.mk
+    $(LOCAL_DIR)/crd_hotdog.mk
+
+COMMON_LUNCH_CHOICES := \
+    crd_hotdog-user \
+    crd_hotdog-userdebug \
+    crd_hotdog-eng
